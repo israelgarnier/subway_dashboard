@@ -107,7 +107,7 @@ function fmtDateTime(iso){ if(!iso) return "—"; try { return new Date(iso).toL
 function esc(s){ return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 
 function render(d){
-  document.getElementById("updated").textContent = fmtDateTime(d.meta && d.meta.lastRunAt);
+  document.getElementById("updated").textContent = fmtDate(d.meta && d.meta.lastRunAt);
   const maxBar = d.timeline.length ? Math.max(...d.timeline.map(t=>t.count)) : 0;
   let html = "";
 
@@ -164,7 +164,6 @@ function render(d){
       '<div id="others" style="display:none;margin-top:12px">'+table(d.otherArticles,false)+'</div></div>';
   }
 
-  html += '<p class="foot">Fuente: Google News + Facebook vía Apify ('+esc(d.meta&&d.meta.source||"")+'). Actualización automática 3×/día vía GitHub Actions. · <b>SHIFT LATAM · Porter Novelli</b></p>';
   document.getElementById("content").innerHTML = html;
 }
 
