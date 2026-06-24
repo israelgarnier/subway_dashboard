@@ -1,4 +1,4 @@
-import { processItems } from "../../../lib/process";
+import { processItems } from "../../../lib/process.mjs";
 
 // Lee la ÚLTIMA corrida exitosa del actor/task en Apify y devuelve los datos
 // ya procesados. Leer datasets en Apify NO tiene costo (solo correr el actor).

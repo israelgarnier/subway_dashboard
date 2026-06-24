@@ -1,0 +1,198 @@
+{
+  "kpis": {
+    "totalRelevant": 6,
+    "top12Count": 5,
+    "mediaCovered": 3,
+    "mediaTotal": 12,
+    "latestDate": "2025-10-17T07:00:00.000Z"
+  },
+  "coverage": [
+    {
+      "key": "nacion.com",
+      "name": "La Nación",
+      "domain": "nacion.com",
+      "count": 2,
+      "covered": true,
+      "latest": "2025-10-15T07:00:00.000Z"
+    },
+    {
+      "key": "crhoy.com",
+      "name": "CRHoy",
+      "domain": "crhoy.com",
+      "count": 1,
+      "covered": true,
+      "latest": "2025-10-15T07:00:00.000Z"
+    },
+    {
+      "key": "teletica.com",
+      "name": "Teletica",
+      "domain": "teletica.com",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "repretel.com",
+      "name": "Repretel",
+      "domain": "repretel.com",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "larepublica.net",
+      "name": "La República",
+      "domain": "larepublica.net",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "elfinancierocr.com",
+      "name": "El Financiero",
+      "domain": "elfinancierocr.com",
+      "count": 2,
+      "covered": true,
+      "latest": "2025-10-17T07:00:00.000Z"
+    },
+    {
+      "key": "diarioextra.com",
+      "name": "Diario Extra",
+      "domain": "diarioextra.com",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "ameliarueda.com",
+      "name": "Amelia Rueda",
+      "domain": "ameliarueda.com",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "delfino.cr",
+      "name": "Delfino",
+      "domain": "delfino.cr",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "elobservador.cr",
+      "name": "El Observador",
+      "domain": "elobservador.cr",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "semanariouniversidad.com",
+      "name": "Semanario Universidad",
+      "domain": "semanariouniversidad.com",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    },
+    {
+      "key": "elmundo.cr",
+      "name": "El Mundo CR",
+      "domain": "elmundo.cr",
+      "count": 0,
+      "covered": false,
+      "latest": null
+    }
+  ],
+  "timeline": [
+    {
+      "day": "2023-06-19",
+      "count": 1
+    },
+    {
+      "day": "2023-08-24",
+      "count": 1
+    },
+    {
+      "day": "2025-06-11",
+      "count": 1
+    },
+    {
+      "day": "2025-10-15",
+      "count": 2
+    },
+    {
+      "day": "2025-10-17",
+      "count": 1
+    }
+  ],
+  "top12Articles": [
+    {
+      "title": "¿Cambio de dueño? La venta de la franquicia Subway en Costa Rica ya está bajo la lupa de Coprocom",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbVNIWC1JVV9wclBnakhqMENwUW1IMGRlZG93RW1fQ1RlZDhjRVI1eEloTWhWX1M3MTlTVjRENlFFQzEyLU93bG1NdmFHaHZ5bUNTZU5aTEp6STFGUzE5bjlmTU05OGJNU0gySEx1M3BVSWdEV1Fma3VzZlNCWHZYMlhaWmVsTzY2eWVQYnR4blVDSmtSVktpaWgxTXd5QVd1R0ZVNmVCNl9WNUdTTzV3TjA2MUo5UmdZTERLLUFkTQ?oc=5",
+      "publisher": "elfinancierocr.com",
+      "mediumKey": "elfinancierocr.com",
+      "mediumName": "El Financiero",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2025-10-17T07:00:00.000Z"
+    },
+    {
+      "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPei00bGJxeW1jOFRQQTRZTmYxQzFBeXp5OXNPN2ZydzJINU1pRV9aOTdjWjZPdlBHTDQxZ3VmYkVMNFRrNnZLeE5oUElZQmtxLU5lQ2xGVGdIcjlwclNpamFWNWtoYVNYZHZwOXRzT2lmYkJTOUI1NlRKbU1vdjFldGpNOWRsSGRpYUF1VGhEdy1Rbm5rZWU2WHdjWUgxWmc2OGRQSG5PaEpITTZrRF9F?oc=5",
+      "publisher": "crhoy.com",
+      "mediumKey": "crhoy.com",
+      "mediumName": "CRHoy",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2025-10-15T07:00:00.000Z"
+    },
+    {
+      "title": "Coprocom recibe notificación sobre venta de la franquicia de Subway en Costa Rica",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQelltbHRwLUJwaDFlLUdKSEwwTU8xcE91M3lncURWdHozSndScjVpT0VDTnpCN3IwQWRuQlh5ZU1KSHZYMWVhN1VEc0VxbHd3dHFFbWxwYWhrb25scTV1UnRJMGNMNmhzSUdUa1lDQmk4NlpaaEEzN2MxeVE5enJTd0dJaWNjbEJSMlRLYk1TaklrTDBXZjRsbkZvQ2NhQ0QtMUxEay1fTlJZeFZIdVdJTEpn?oc=5",
+      "publisher": "nacion.com",
+      "mediumKey": "nacion.com",
+      "mediumName": "La Nación",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2025-10-15T07:00:00.000Z"
+    },
+    {
+      "title": "Famosa cadena de pollo frito fue adquirida por los dueños de Subway por $1.000 millones",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNkNVWE1pOFNGQ1UtaW8wRUZFV2NJb0NHTllmS1pTRE91Q09zQ3UxZVFZU3pTM3RIcEFWUFJSTzNwSUlUcG02SEdvVnBMWHdkc3A5SVNoOTBtVmVWMEVaNlZ0Z1VtX0RYTndweVlnRnJyNDdmaHJPZHRxZlo4VmZTa0o5TEVpYWNERVlaTmR5WklKRWZDNWFMamNyRW9lMmZDZ1FqTHRjLXJaX0RkMXhybXM5elpvaTRiQmI1bDlaMW1zVlk?oc=5",
+      "publisher": "nacion.com",
+      "mediumKey": "nacion.com",
+      "mediumName": "La Nación",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2025-06-11T07:00:00.000Z"
+    },
+    {
+      "title": "Subway anuncia su venta a firma de inversiones Roark Capital",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXBaaVAzWW9LQTJUc0Z0dExLVUdURWFRM0YtSGQ1LUVLTmVVTkVIUE5MdDRoRHVCY0RlQlZzMHp5U2NBTWdYV2tfZzBzTlNySTZ4RG1rbTZlSTAyZ0FUWDRMYlB3UExRLXlEVzdFOThndC1XYXdsWENHanBFdm50cFhUSEFpOGRtVDNkeTllNjZEQ1dWNkEtNHVWaFZXMjkyWC1CWGdnUlNmWGRRV1FkWElmUVFrVE84VncxVw?oc=5",
+      "publisher": "elfinancierocr.com",
+      "mediumKey": "elfinancierocr.com",
+      "mediumName": "El Financiero",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2023-08-24T07:00:00.000Z"
+    }
+  ],
+  "otherArticles": [
+    {
+      "title": "Subway logra en Costa Rica su cuarta franquicia maestra para América Latina",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcEpobUpTZzl5OFh5eE9VUUJYaDFmY1NBT1dRMFAxZVVkMHFjQ3JZTkpOLWNUNVV2SVdwTEhwdHozeWN2OWhTV1ZxWmpOVFpsOFpFeTV6ZG9WTEVOU1FsbXRkMDl1TDZ5X0Z2WktxV1BLZDQ4Uy1qek1XQ2MyTGpFX0M5azlTZ3FEa0tVZ0t4bEdQVXNGQVNNZ21MTFpBTkNRLV9iSjRYa2haYzI0NXlmUGRnTDRrS3J2dDFHXzhiVjYxX1UtUFdFRw?oc=5",
+      "publisher": "americaeconomia.com",
+      "mediumKey": null,
+      "mediumName": null,
+      "isTop12": false,
+      "relevant": true,
+      "date": "2023-06-19T07:00:00.000Z"
+    }
+  ],
+  "meta": {
+    "lastRunAt": "2026-06-24T21:29:18.439Z",
+    "rawCount": 30,
+    "source": "actor:andok~google-news-scraper"
+  }
+}
