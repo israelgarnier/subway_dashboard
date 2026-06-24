@@ -2,8 +2,8 @@ name: Actualizar datos Subway
 
 on:
   schedule:
-    # Costa Rica = UTC-6. 7:00 y 17:00 CR -> 13:00 y 23:00 UTC.
-    - cron: "0 13,23 * * *"
+    # Costa Rica = UTC-6. 3 veces al día: 7am, 1pm y 7pm CR -> 13:00, 19:00 y 01:00 UTC.
+    - cron: "0 1,13,19 * * *"
   workflow_dispatch: {} # botón "Run workflow" para correr manualmente
 
 permissions:

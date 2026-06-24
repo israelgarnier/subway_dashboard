@@ -4,7 +4,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { processItems } from "../lib/process.mjs";
+import { processItems, processFacebook } from "../lib/process.mjs";
 
 const token = process.env.APIFY_TOKEN;
 const actor = process.env.APIFY_ACTOR || "andok~google-news-scraper";
@@ -41,9 +41,39 @@ if (!res.ok) {
 const items = await res.json();
 const arr = Array.isArray(items) ? items : [];
 const data = processItems(arr);
+
+// --- Facebook de Coprocom (https://www.facebook.com/Coprocom) ---
+const FB_ACTOR = "apify~facebook-posts-scraper";
+const FB_PAGE = "https://www.facebook.com/Coprocom";
+let fbPosts = [];
+try {
+  const fbRes = await fetch(
+    `https://api.apify.com/v2/acts/${FB_ACTOR}/run-sync-get-dataset-items?token=${token}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ startUrls: [{ url: FB_PAGE }], resultsLimit: 15 }),
+    }
+  );
+  if (fbRes.ok) {
+    const fbItems = await fbRes.json();
+    fbPosts = processFacebook(Array.isArray(fbItems) ? fbItems : []);
+  } else {
+    console.error("Aviso Facebook:", fbRes.status, (await fbRes.text()).slice(0, 200));
+  }
+} catch (e) {
+  console.error("Aviso: no se pudo traer Facebook:", String(e));
+}
+data.facebook = {
+  pageUrl: FB_PAGE,
+  posts: fbPosts,
+  relevantCount: fbPosts.filter((p) => p.relevant).length,
+};
+
 data.meta = {
   lastRunAt: new Date().toISOString(),
   rawCount: arr.length,
+  fbCount: fbPosts.length,
   source: `actor:${actor}`,
 };
 
@@ -56,5 +86,5 @@ writeFileSync(outPath, JSON.stringify(data, null, 2));
 console.log(
   `OK: ${data.kpis.totalRelevant} notas relevantes, ` +
     `${data.kpis.mediaCovered}/${data.kpis.mediaTotal} medios, ` +
-    `${arr.length} crudos -> ${outPath}`
+    `${arr.length} crudos · FB: ${fbPosts.length} posts (${data.facebook.relevantCount} rel.) -> ${outPath}`
 );
