@@ -49,10 +49,9 @@
   .badge.no { background:#eef1f0; color:var(--muted); border:1px solid var(--border); }
 
   .timeline { display:flex; align-items:flex-end; gap:10px; height:140px; padding-top:8px; overflow-x:auto; }
-  .bar-wrap { flex:1 0 54px; display:flex; flex-direction:column; align-items:center; gap:6px; }
+  .bar-wrap { flex:1 0 66px; display:flex; flex-direction:column; align-items:center; gap:6px; }
   .bar { width:100%; max-width:46px; background:linear-gradient(180deg,var(--brand),var(--brand-dark)); border-radius:6px 6px 0 0; min-height:4px; }
   .bar-day { font-size:11px; color:var(--text); white-space:nowrap; text-align:center; font-weight:600; }
-  .bar-day .yr { display:block; font-size:10px; color:var(--muted); font-weight:400; }
   .bar-num { font-size:12px; font-weight:700; color:var(--brand-dark); }
 
   table { width:100%; border-collapse:collapse; }
@@ -134,7 +133,7 @@ function render(d){
       const h = maxBar>0 ? Math.max(6,(t.count/maxBar)*100) : 6;
       const [y,mo,da] = t.day.split("-");
       html += '<div class="bar-wrap"><div class="bar-num">'+t.count+'</div><div class="bar" style="height:'+h+'px"></div>'+
-        '<div class="bar-day">'+da+'/'+mo+'<span class="yr">'+y+'</span></div></div>';
+        '<div class="bar-day">'+da+'/'+mo+'/'+y+'</div></div>';
     }
     html += '</div></div>';
   }
@@ -147,15 +146,13 @@ function render(d){
   // Facebook Coprocom
   if(d.facebook){
     const posts = d.facebook.posts || [];
-    const rel = posts.filter(p=>p.relevant), otros = posts.filter(p=>!p.relevant);
+    const rel = posts.filter(p=>p.relevant);
     html += '<div class="section"><h2>Facebook · Coprocom <a href="'+esc(d.facebook.pageUrl)+'" target="_blank" rel="noreferrer">@Coprocom ↗</a></h2>';
-    if(!posts.length){ html += '<div class="empty">Sin posts recientes.</div>'; }
-    else {
-      if(rel.length){ html += '<p class="subtitle" style="margin:0 0 10px">Posts relacionados con el caso Subway:</p>'; rel.forEach(p=>html+=fbCard(p)); }
-      if(otros.length){
-        html += '<button class="toggle" onclick="toggleFb()">Mostrar / ocultar otros posts de Coprocom ('+otros.length+')</button>'+
-          '<div id="fbOtros" style="display:none;margin-top:10px">'; otros.forEach(p=>html+=fbCard(p)); html += '</div>';
-      }
+    if(rel.length){
+      html += '<p class="subtitle" style="margin:0 0 10px">Posts de Coprocom sobre el caso Subway:</p>';
+      rel.forEach(p=>html+=fbCard(p));
+    } else {
+      html += '<div class="empty">Sin publicaciones de Coprocom sobre el caso Subway por ahora. Se revisan automáticamente '+posts.length+' posts recientes y aparecerán aquí en cuanto Coprocom mencione el caso.</div>';
     }
     html += '</div>';
   }
@@ -173,12 +170,11 @@ function render(d){
 
 function kpi(num,lbl){ return '<div class="kpi"><div class="num">'+num+'</div><div class="lbl">'+lbl+'</div></div>'; }
 function table(rows, useMediumName){
-  let h = '<table><thead><tr><th>Medio</th><th>Titular / Enlace</th><th>Fecha</th></tr></thead><tbody>';
+  let h = '<table><thead><tr><th>Medio</th><th>Titular</th><th>Fecha</th></tr></thead><tbody>';
   for(const a of rows){
     const medio = useMediumName ? esc(a.mediumName) : esc(a.publisher);
     h += '<tr><td class="medium">'+medio+'</td>'+
-      '<td><a href="'+esc(a.link)+'" target="_blank" rel="noreferrer">'+esc(a.title)+'</a>'+
-      '<div class="src"><a href="'+esc(a.link)+'" target="_blank" rel="noreferrer">'+esc(a.link)+'</a></div></td>'+
+      '<td><a href="'+esc(a.link)+'" target="_blank" rel="noreferrer" title="Abrir noticia">'+esc(a.title)+' ↗</a></td>'+
       '<td class="date">'+fmtDate(a.date)+'</td></tr>';
   }
   return h + '</tbody></table>';
