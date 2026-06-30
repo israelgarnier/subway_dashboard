@@ -1,7 +1,7 @@
 {
   "kpis": {
-    "totalRelevant": 4,
-    "top12Count": 4,
+    "totalRelevant": 7,
+    "top12Count": 5,
     "mediaCovered": 3,
     "mediaTotal": 12,
     "latestDate": "2025-10-17T07:00:00.000Z"
@@ -51,7 +51,7 @@
       "key": "elfinancierocr.com",
       "name": "El Financiero",
       "domain": "elfinancierocr.com",
-      "count": 1,
+      "count": 2,
       "covered": true,
       "latest": "2025-10-17T07:00:00.000Z"
     },
@@ -106,6 +106,18 @@
   ],
   "timeline": [
     {
+      "day": "2023-06-19",
+      "count": 1
+    },
+    {
+      "day": "2023-08-24",
+      "count": 1
+    },
+    {
+      "day": "2025-06-10",
+      "count": 1
+    },
+    {
       "day": "2025-06-11",
       "count": 1
     },
@@ -158,16 +170,47 @@
       "isTop12": true,
       "relevant": true,
       "date": "2025-06-11T07:00:00.000Z"
+    },
+    {
+      "title": "Subway anuncia su venta a firma de inversiones Roark Capital",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXBaaVAzWW9LQTJUc0Z0dExLVUdURWFRM0YtSGQ1LUVLTmVVTkVIUE5MdDRoRHVCY0RlQlZzMHp5U2NBTWdYV2tfZzBzTlNySTZ4RG1rbTZlSTAyZ0FUWDRMYlB3UExRLXlEVzdFOThndC1XYXdsWENHanBFdm50cFhUSEFpOGRtVDNkeTllNjZEQ1dWNkEtNHVWaFZXMjkyWC1CWGdnUlNmWGRRV1FkWElmUVFrVE84VncxVw?oc=5",
+      "publisher": "elfinancierocr.com",
+      "mediumKey": "elfinancierocr.com",
+      "mediumName": "El Financiero",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2023-08-24T07:00:00.000Z"
     }
   ],
-  "otherArticles": [],
+  "otherArticles": [
+    {
+      "title": "Dueños de Subway compraron reconocida cadena de comida rápida por mil millones de dólares",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbjdfVjB1S0pDRGV1a3VpdXpiSzlkdkUxeVNWekp1bnRqaUFpaTdLc0lKOXh3ek9IUU96UDdOQm9UMmM4M3diZWpzbERxdDItb08zNDJlSDdxaGZrV3g2c1NRYjBlV0pBX1J0S04xYTR0Zlg1Y1BDRTZpaDRNZm1nUDR1bjlKQ0NMOG1XWkItMHRzRl84V2lzMEh1ay1PN3JSbFVhck9EU3diUnZfUXZOS3hfVHBGZjlYN0I2TngyclVLdw?oc=5",
+      "publisher": "la teja",
+      "mediumKey": null,
+      "mediumName": null,
+      "isTop12": false,
+      "relevant": true,
+      "date": "2025-06-10T07:00:00.000Z"
+    },
+    {
+      "title": "Subway logra en Costa Rica su cuarta franquicia maestra para América Latina",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcEpobUpTZzl5OFh5eE9VUUJYaDFmY1NBT1dRMFAxZVVkMHFjQ3JZTkpOLWNUNVV2SVdwTEhwdHozeWN2OWhTV1ZxWmpOVFpsOFpFeTV6ZG9WTEVOU1FsbXRkMDl1TDZ5X0Z2WktxV1BLZDQ4Uy1qek1XQ2MyTGpFX0M5azlTZ3FEa0tVZ0t4bEdQVXNGQVNNZ21MTFpBTkNRLV9iSjRYa2haYzI0NXlmUGRnTDRrS3J2dDFHXzhiVjYxX1UtUFdFRw?oc=5",
+      "publisher": "américa economía",
+      "mediumKey": null,
+      "mediumName": null,
+      "isTop12": false,
+      "relevant": true,
+      "date": "2023-06-19T07:00:00.000Z"
+    }
+  ],
   "facebook": {
     "pageUrl": "https://www.facebook.com/Coprocom",
     "posts": [
       {
         "text": "Atención👇",
         "date": "2026-06-29T20:31:24.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02g7sJcBxSHSEcMqBKdPiZ9QEBpyd4QTeWv2midAg2cR3THqP7RhG6GiUyothYSTUml",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0caE7h2L5SG1Y5vz8zJjMbUwP2NJXd5earyzHFz4euaCfXyufHPsMBmgUaHJZCyAtl",
         "reactions": 1,
         "shares": 0,
         "relevant": false
@@ -183,7 +226,7 @@
       {
         "text": "COPROCOM participó hoy en las videoconferencias técnicas del Comité Centroamericano de Competencia (CCC) con la presentación “𝑪𝒐𝒎𝒑𝒆𝒕𝒆𝒏𝒄𝒊𝒂 𝒚 𝒔𝒐𝒔𝒕𝒆𝒏𝒊𝒃𝒊𝒍𝒊𝒅𝒂𝒅 𝒂𝒎𝒃𝒊𝒆𝒏𝒕𝒂𝒍: 𝒖𝒏𝒂 𝒏𝒖𝒆𝒗𝒂 𝒇𝒓𝒐𝒏𝒕𝒆𝒓𝒂 𝒑𝒂𝒓𝒂 𝒍𝒂𝒔 𝒂𝒖𝒕𝒐𝒓𝒊𝒅𝒂𝒅𝒆𝒔 𝒅𝒆 𝒄𝒐𝒎𝒑𝒆𝒕𝒆𝒏𝒄𝒊𝒂”.\nLa exposición estuvo a cargo de 𝗚𝘂𝗶𝗹𝗹𝗲𝗿𝗺𝗼 𝗣𝗮𝘀𝘁𝗿𝗮𝗻𝗮 𝘆 𝗗𝗮𝗻𝗶𝗲𝗹 𝗟ó𝗽𝗲𝘇, de la Unidad de Investigación y Promoción de COPROCOM, quienes abordaron los principales desarrollos internacionales sobre la relación entre competencia y sostenibilidad ambiental, así como los desafíos y oportunidades que este tema plantea para las autoridades de competencia de la región.\nLa presentación destacó las recomendaciones de la OCDE y la importancia de promover mercados competitivos que favorezcan la innovación, la eficiencia y la transición hacia modelos de desarrollo más sostenibles.",
         "date": "2026-06-16T17:33:40.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02rgRkkxGKWTnJg9SUbx9dE9di5gXMZBUB4FSbkT9rnRcMKDURe9qj6d4RXUa924U3l",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0o8nZqndxfEmdxwFRhMEJNi6hXUXvMcV89cQMwRLn9owAbqtDNqzTriS3Aj72sEn4l",
         "reactions": 3,
         "shares": 0,
         "relevant": false
@@ -207,7 +250,7 @@
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con los sectores 𝗮𝘂𝗱𝗶𝗼𝘃𝗶𝘀𝘂𝗮𝗹, 𝘁𝗲𝗹𝗲𝘃𝗶𝘀𝗶ó𝗻, 𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴, 𝗽𝘂𝗯𝗹𝗶𝗰𝗶𝗱𝗮𝗱 𝘁𝗲𝗹𝗲𝘃𝗶𝘀𝗶𝘃𝗮, 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗶𝗻𝘁𝗲𝗹𝗲𝗰𝘁𝘂𝗮𝗹 𝘆 𝘃𝗶𝗱𝗲𝗼𝗷𝘂𝗲𝗴𝗼𝘀, 𝗰𝗼𝗻 𝗶𝗻𝗰𝗶𝗱𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝘁𝗼𝗱𝗼 𝗲𝗹 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹.",
         "date": "2026-05-20T20:06:46.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid023pQXWxRQFKB6qgdybqLzhBUJQMNnef4am5ttwPnx2CLCQMhv5ketrN3XJpFwdBbMl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid037frEhdME6aMwSp8yxzkBpSMuUB8p85cxDrHGsSWvcvCpVeFfsd2QLVrZUaU8wgccl",
         "reactions": 4,
         "shares": 0,
         "relevant": false
@@ -223,7 +266,7 @@
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica en los mercados relacionados con la 𝗰𝗼𝗻𝗰𝗲𝘀𝗶ó𝗻 𝗼 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗱𝗲 𝗮𝗰𝘁𝗶𝘃𝗼𝘀 𝗶𝗻𝗺𝗼𝗯𝗶𝗹𝗶𝗮𝗿𝗶𝗼𝘀 𝗱𝗲𝘀𝘁𝗶𝗻𝗮𝗱𝗼𝘀 𝗮 𝗹𝗼𝘀 𝘀𝗲𝗰𝘁𝗼𝗿𝗲𝘀 𝗱𝗲 𝗹𝗮 𝗵𝗼𝘀𝘁𝗲𝗹𝗲𝗿í𝗮, 𝗲𝗹 𝗮𝗹𝗾𝘂𝗶𝗹𝗲𝗿 𝗮 𝗰𝗼𝗿𝘁𝗼 𝗽𝗹𝗮𝘇𝗼, 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗿𝗲𝘀𝗶𝗱𝗲𝗻𝗰𝗶𝗮𝗹 𝘆 𝗲𝗹 𝘁𝘂𝗿𝗶𝘀𝗺𝗼 𝗲𝗻 𝗚𝘂𝗮𝗻𝗮𝗰𝗮𝘀𝘁𝗲.",
         "date": "2026-05-13T20:33:17.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02WMHYckPfuFsStFzQjzn2eDMSpsm2WvSfKqAjPMmEQWYsvnzE6bNUccmvGsxwSYNXl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0SoeMhamK4AH8nKcQeUnAcGiSWFVxdRi24TSpg18baEKKmehnonZJgbVJK2fhU1col",
         "reactions": 2,
         "shares": 0,
         "relevant": false
@@ -247,7 +290,7 @@
       {
         "text": "📢 𝗔𝘁𝗲𝗻𝗰𝗶ó𝗻\nSe informa sobre la notificación de concentración económica en los mercados relacionados con el 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗽𝗿𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗱𝗲 𝗮𝗿𝗿𝗲𝗻𝗱𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗲𝘀𝗽𝗮𝗰𝗶𝗼𝘀 𝗲𝗻 𝘁𝗼𝗿𝗿𝗲𝘀 𝘆 𝗽𝗼𝘀𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗱𝗲 𝘁𝗲𝗿𝗰𝗲𝗿𝗼𝘀 𝗻𝗲𝗰𝗲𝘀𝗮𝗿𝗶𝗼𝘀 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗽𝗿𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗱𝗲 𝘁𝗲𝗹𝗲𝗰𝗼𝗺𝘂𝗻𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀.",
         "date": "2026-05-07T18:37:56.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid0dMf7W6fDoGp1nin4BePYRUTvAJKQftDCbFuRELbrBt1DkSXTmmZruEYvDUQNpotYl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid02hD6pgmb3egcGPnzrc5X5ovu49y5fPuGeNm448vpFvBvqjEwBMVghYhCnhPX9GUcrl",
         "reactions": 3,
         "shares": 0,
         "relevant": false
@@ -255,7 +298,7 @@
       {
         "text": "📢 𝗔𝘁𝗲𝗻𝗰𝗶ó𝗻\nSe informa sobre la notificación de concentración económica en los mercados relacionados con 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮 𝗱𝗲 𝘃𝗲𝗵í𝗰𝘂𝗹𝗼𝘀.",
         "date": "2026-05-07T14:37:34.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid0pQPnR9gxYNckN3hZJGTNc5cGKZLVYoLawxeJqmR5ZraBMBczCJrrUgdfPf5sbMC3l",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid02tFqVbpcnPsNgYz1sq1LVvKMQWFZexcfki2ojXtPiNnDAz2deTnRqSKRTYAJNia8Xl",
         "reactions": 3,
         "shares": 0,
         "relevant": false
@@ -271,7 +314,7 @@
       {
         "text": "COPROCOM expresa sus sinceras condolencias al Comisionado Guillermo Rojas Guzmán y a su familia por el fallecimiento de su padre, don Guillermo Rojas Ugalde.",
         "date": "2026-04-22T23:29:54.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02u6erHBLwXuEkq5345a4WCVYWc35U8qEG5Az3MvPEzDFCpxDiiTa715WcBGKN2yA1l",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0qZ1fN1iagg9ARLCJZvqMKZPKxyj4ioAKN9rccbymMpCPvmDE6dTS5qhdAoKSBT8Rl",
         "reactions": 7,
         "shares": 0,
         "relevant": false
@@ -279,7 +322,7 @@
       {
         "text": "📢 𝗔𝘁𝗲𝗻𝗰𝗶ó𝗻\nSe informa sobre la notificación de concentración económica en los mercados relacionados con el 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝘃𝗶𝗱𝗿𝗶𝗼 𝗳𝗹𝗼𝘁𝗮𝗱𝗼 𝘀𝗶𝗻 𝗽𝗿𝗼𝗰𝗲𝘀𝗮𝗿 𝘆 𝘃𝗶𝗱𝗿𝗶𝗼 𝗳𝗹𝗼𝘁𝗮𝗱𝗼 𝗽𝗿𝗼𝗰𝗲𝘀𝗮𝗱𝗼.",
         "date": "2026-04-20T20:00:22.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid032M7U5T5FkxjfHqueotG45jHcYc4dqvfMaAW2dNeMPGY19y2Yf7ogBSaJ9fwpfCGhl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0xoUHAHStubmeAnW5qpvQXGpWcWzVGo18yUs5oAcXPTbWBmG2tgm4vcdUHKgz2iHal",
         "reactions": 5,
         "shares": 0,
         "relevant": false
@@ -288,8 +331,8 @@
     "relevantCount": 0
   },
   "meta": {
-    "lastRunAt": "2026-06-30T04:56:57.161Z",
-    "rawCount": 20,
+    "lastRunAt": "2026-06-30T15:22:52.586Z",
+    "rawCount": 30,
     "fbCount": 15,
     "source": "actor:andok~google-news-scraper"
   }
