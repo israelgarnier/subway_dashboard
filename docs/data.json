@@ -1,7 +1,7 @@
 {
   "kpis": {
-    "totalRelevant": 7,
-    "top12Count": 5,
+    "totalRelevant": 4,
+    "top12Count": 4,
     "mediaCovered": 3,
     "mediaTotal": 12,
     "latestDate": "2025-10-17T07:00:00.000Z"
@@ -51,7 +51,7 @@
       "key": "elfinancierocr.com",
       "name": "El Financiero",
       "domain": "elfinancierocr.com",
-      "count": 2,
+      "count": 1,
       "covered": true,
       "latest": "2025-10-17T07:00:00.000Z"
     },
@@ -106,18 +106,6 @@
   ],
   "timeline": [
     {
-      "day": "2023-06-19",
-      "count": 1
-    },
-    {
-      "day": "2023-08-24",
-      "count": 1
-    },
-    {
-      "day": "2025-06-10",
-      "count": 1
-    },
-    {
       "day": "2025-06-11",
       "count": 1
     },
@@ -170,40 +158,9 @@
       "isTop12": true,
       "relevant": true,
       "date": "2025-06-11T07:00:00.000Z"
-    },
-    {
-      "title": "Subway anuncia su venta a firma de inversiones Roark Capital",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdXBaaVAzWW9LQTJUc0Z0dExLVUdURWFRM0YtSGQ1LUVLTmVVTkVIUE5MdDRoRHVCY0RlQlZzMHp5U2NBTWdYV2tfZzBzTlNySTZ4RG1rbTZlSTAyZ0FUWDRMYlB3UExRLXlEVzdFOThndC1XYXdsWENHanBFdm50cFhUSEFpOGRtVDNkeTllNjZEQ1dWNkEtNHVWaFZXMjkyWC1CWGdnUlNmWGRRV1FkWElmUVFrVE84VncxVw?oc=5",
-      "publisher": "elfinancierocr.com",
-      "mediumKey": "elfinancierocr.com",
-      "mediumName": "El Financiero",
-      "isTop12": true,
-      "relevant": true,
-      "date": "2023-08-24T07:00:00.000Z"
     }
   ],
-  "otherArticles": [
-    {
-      "title": "Dueños de Subway compraron reconocida cadena de comida rápida por mil millones de dólares",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbjdfVjB1S0pDRGV1a3VpdXpiSzlkdkUxeVNWekp1bnRqaUFpaTdLc0lKOXh3ek9IUU96UDdOQm9UMmM4M3diZWpzbERxdDItb08zNDJlSDdxaGZrV3g2c1NRYjBlV0pBX1J0S04xYTR0Zlg1Y1BDRTZpaDRNZm1nUDR1bjlKQ0NMOG1XWkItMHRzRl84V2lzMEh1ay1PN3JSbFVhck9EU3diUnZfUXZOS3hfVHBGZjlYN0I2TngyclVLdw?oc=5",
-      "publisher": "la teja",
-      "mediumKey": null,
-      "mediumName": null,
-      "isTop12": false,
-      "relevant": true,
-      "date": "2025-06-10T07:00:00.000Z"
-    },
-    {
-      "title": "Subway logra en Costa Rica su cuarta franquicia maestra para América Latina",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcEpobUpTZzl5OFh5eE9VUUJYaDFmY1NBT1dRMFAxZVVkMHFjQ3JZTkpOLWNUNVV2SVdwTEhwdHozeWN2OWhTV1ZxWmpOVFpsOFpFeTV6ZG9WTEVOU1FsbXRkMDl1TDZ5X0Z2WktxV1BLZDQ4Uy1qek1XQ2MyTGpFX0M5azlTZ3FEa0tVZ0t4bEdQVXNGQVNNZ21MTFpBTkNRLV9iSjRYa2haYzI0NXlmUGRnTDRrS3J2dDFHXzhiVjYxX1UtUFdFRw?oc=5",
-      "publisher": "américa economía",
-      "mediumKey": null,
-      "mediumName": null,
-      "isTop12": false,
-      "relevant": true,
-      "date": "2023-06-19T07:00:00.000Z"
-    }
-  ],
+  "otherArticles": [],
   "facebook": {
     "pageUrl": "https://www.facebook.com/Coprocom",
     "posts": [
@@ -211,14 +168,14 @@
         "text": "Atención👇",
         "date": "2026-06-29T20:31:24.000Z",
         "url": "https://www.facebook.com/Coprocom/posts/pfbid02g7sJcBxSHSEcMqBKdPiZ9QEBpyd4QTeWv2midAg2cR3THqP7RhG6GiUyothYSTUml",
-        "reactions": 0,
+        "reactions": 1,
         "shares": 0,
         "relevant": false
       },
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con  𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝘆 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗱𝗲 𝗴𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗹 𝗰𝗹𝗶𝗲𝗻𝘁𝗲.",
         "date": "2026-06-19T21:19:35.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02mALEKhVncnq19T77vmAkafK9gDBpUYJoHHrTi1HhuEQWKm5iV2e5gSfNbgFjdjGal",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0h8jWqtJDwk4KnMayZGJtbzshkd5XudLwSo6E5Rc5bGBi8NhXyjpptQ7Zp1Dco5djl",
         "reactions": 1,
         "shares": 1,
         "relevant": false
@@ -234,7 +191,7 @@
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝘆 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝗮𝗱𝗶𝘁𝗶𝘃𝗼𝘀, 𝗽𝗿𝗲𝗺𝗲𝘇𝗰𝗹𝗮𝘀, 𝗻ú𝗰𝗹𝗲𝗼𝘀, 𝘀𝗮𝗹𝗲𝘀 𝗺𝗶𝗻𝗲𝗿𝗮𝗹𝗲𝘀, 𝘃𝗶𝘁𝗮𝗺𝗶𝗻𝗮𝘀, 𝗰𝗮𝗿𝗼𝘁𝗲𝗻𝗼𝗶𝗱𝗲𝘀 𝘆 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼𝘀 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗻𝘂𝘁𝗿𝗶𝗰𝗶ó𝗻 𝗮𝗻𝗶𝗺𝗮𝗹 𝗲𝗻 𝗲𝗹 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗰𝗼𝘀𝘁𝗮𝗿𝗿𝗶𝗰𝗲𝗻𝘀𝗲.",
         "date": "2026-06-01T21:37:56.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid031T233YRf5yXT6Pi1PNHry4xtDdSBitw71xnGqnXqa4qUWu4tca6pkmRD8CdRrb1Xl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0wuNr8NoJEeH1aMziobicPpbUufTRCYmrL9Fnmk3HtFMvuQ7X2PYRYU7YeLKDxAWNl",
         "reactions": 1,
         "shares": 0,
         "relevant": false
@@ -242,7 +199,7 @@
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con el 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗶𝗻𝘁𝗲𝗿𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗱𝗲 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗲 𝗱𝗲 𝗹í𝗻𝗲𝗮𝘀 𝗱𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗲𝗱𝗼𝗿𝗲𝘀 𝗲𝗻 𝗲𝗹 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗰𝗼𝘀𝘁𝗮𝗿𝗿𝗶𝗰𝗲𝗻𝘀𝗲.",
         "date": "2026-05-29T22:05:04.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid0Q6i5jsvyJthZAGnBbMqcWnNZvcm6C1NDBwQZwfJAeSBks2nYnm12o1yMz4GLFScJl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid02TUCGMuHbLPNGiN7Gz1EoKwNWPvD65dnBACjoFrUs9WhU3Rc3jJ2Af7JWiHvfasrel",
         "reactions": 1,
         "shares": 0,
         "relevant": false
@@ -274,7 +231,7 @@
       {
         "text": "📢 La Comisión para Promover la Competencia (COPROCOM) abre el Concurso 002-2026 para conformar lista de elegibles para el puesto de Asistente Administrativo.\n💰 Salario mensual: ¢496.802 (régimen de salario único)\n📅 Recepción de atestados del 12 al 18 de mayo de 2026.\n📧 Correo para postulación: talpizarq@coprocom.go.cr\nMás información y requisitos aquí: www.coprocom.go.cr/noticias/6\n¡Le invitamos a participar y formar parte de nuestro equipo! 💼🇨🇷",
         "date": "2026-05-13T17:12:58.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02aVsjVzS5G3LCjLJiB8rd5hMoX1kXXST34buF6uEsvoLgvzkQZaye3QuQuvAmtpW3l",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0WUH22BEWbBu7BkBx3ekNxidyBhW6Z4U8Sa8WyZsH9H3BrZax2Fkg9qT4AcmSN5vNl",
         "reactions": 2,
         "shares": 2,
         "relevant": false
@@ -306,7 +263,7 @@
       {
         "text": "📢 𝗔𝘁𝗲𝗻𝗰𝗶ó𝗻\nSe informa sobre la notificación de concentración económica en los mercados relacionados con la 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘃𝗶𝗮𝗹 𝗽ú𝗯𝗹𝗶𝗰𝗮 𝗲𝗻 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗰𝗼𝘀𝘁𝗮𝗿𝗿𝗶𝗰𝗲𝗻𝘀𝗲.",
         "date": "2026-04-27T21:38:15.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid02Rgt5Mi2bREXVMXFDcPxJv99T77n9zXQ7HJDeDZ8AvpqQcaaK6BhE4eKui5SPkpKxl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0N9EtSYQEa6pF36AA4NX64WShe1dT4riQGrxTm2u6yJXd4CegEBLWSds5BSZffucVl",
         "reactions": 2,
         "shares": 0,
         "relevant": false
@@ -331,8 +288,8 @@
     "relevantCount": 0
   },
   "meta": {
-    "lastRunAt": "2026-06-29T20:46:48.198Z",
-    "rawCount": 30,
+    "lastRunAt": "2026-06-30T04:56:57.161Z",
+    "rawCount": 20,
     "fbCount": 15,
     "source": "actor:andok~google-news-scraper"
   }
