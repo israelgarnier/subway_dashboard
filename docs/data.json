@@ -404,8 +404,8 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-03T21:55:38.818Z",
-    "apifyRefreshed": true,
+    "lastRunAt": "2026-07-03T22:54:07.342Z",
+    "apifyRefreshed": false,
     "source": "meltwater+apify"
   }
 }
