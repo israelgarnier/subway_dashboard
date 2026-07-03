@@ -228,7 +228,7 @@
       {
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝘆 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝗮𝗱𝗶𝘁𝗶𝘃𝗼𝘀, 𝗽𝗿𝗲𝗺𝗲𝘇𝗰𝗹𝗮𝘀, 𝗻ú𝗰𝗹𝗲𝗼𝘀, 𝘀𝗮𝗹𝗲𝘀 𝗺𝗶𝗻𝗲𝗿𝗮𝗹𝗲𝘀, 𝘃𝗶𝘁𝗮𝗺𝗶𝗻𝗮𝘀, 𝗰𝗮𝗿𝗼𝘁𝗲𝗻𝗼𝗶𝗱𝗲𝘀 𝘆 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼𝘀 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗻𝘂𝘁𝗿𝗶𝗰𝗶ó𝗻 𝗮𝗻𝗶𝗺𝗮𝗹 𝗲𝗻 𝗲𝗹 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗰𝗼𝘀𝘁𝗮𝗿𝗿𝗶𝗰𝗲𝗻𝘀𝗲.",
         "date": "2026-06-01T21:37:56.000Z",
-        "url": "https://www.facebook.com/Coprocom/posts/pfbid031afZ1uTPGbo3oYff9CJemXphAetmY2aJiLFJhC1w5Pp7bbMWgLtrMQnetFAXgp5kl",
+        "url": "https://www.facebook.com/Coprocom/posts/pfbid0wZ4qY6FpbZBvKrbTuZQAYSXW2cQv19jpGSJVT4foabCZ3BWWQmsNcJg13reZL8cEl",
         "reactions": 1,
         "shares": 0,
         "relevant": false
@@ -317,10 +317,20 @@
     "relevantCount": 1
   },
   "meltwater": {
-    "total": 33,
-    "relevantCount": 7,
-    "totalReach": 5771171,
+    "total": 34,
+    "relevantCount": 8,
+    "totalReach": 6430642,
     "mentions": [
+      {
+        "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial",
+        "publisher": "Facebook",
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/47921680333_1453724073449777",
+        "date": "2026-07-03T21:00:06.000Z",
+        "reach": 659471,
+        "type": "social post",
+        "relevant": true
+      },
       {
         "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial",
         "publisher": "El Financiero",
@@ -394,7 +404,7 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-03T21:35:05.921Z",
+    "lastRunAt": "2026-07-03T21:55:38.818Z",
     "apifyRefreshed": true,
     "source": "meltwater+apify"
   }
