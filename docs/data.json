@@ -1,8 +1,8 @@
 {
   "kpis": {
     "totalRelevant": 6,
-    "top12Count": 5,
-    "mediaCovered": 3,
+    "top12Count": 4,
+    "mediaCovered": 2,
     "mediaTotal": 12,
     "latestDate": "2025-10-17T07:00:00.000Z"
   },
@@ -19,9 +19,9 @@
       "key": "crhoy.com",
       "name": "CRHoy",
       "domain": "crhoy.com",
-      "count": 1,
-      "covered": true,
-      "latest": "2025-10-15T07:00:00.000Z"
+      "count": 0,
+      "covered": false,
+      "latest": null
     },
     {
       "key": "teletica.com",
@@ -138,16 +138,6 @@
       "date": "2025-10-17T07:00:00.000Z"
     },
     {
-      "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPei00bGJxeW1jOFRQQTRZTmYxQzFBeXp5OXNPN2ZydzJINU1pRV9aOTdjWjZPdlBHTDQxZ3VmYkVMNFRrNnZLeE5oUElZQmtxLU5lQ2xGVGdIcjlwclNpamFWNWtoYVNYZHZwOXRzT2lmYkJTOUI1NlRKbU1vdjFldGpNOWRsSGRpYUF1VGhEdy1Rbm5rZWU2WHdjWUgxWmc2OGRQSG5PaEpITTZrRF9F?oc=5",
-      "publisher": "crhoy.com",
-      "mediumKey": "crhoy.com",
-      "mediumName": "CRHoy",
-      "isTop12": true,
-      "relevant": true,
-      "date": "2025-10-15T07:00:00.000Z"
-    },
-    {
       "title": "Coprocom recibe notificación sobre venta de la franquicia de Subway en Costa Rica",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQelltbHRwLUJwaDFlLUdKSEwwTU8xcE91M3lncURWdHozSndScjVpT0VDTnpCN3IwQWRuQlh5ZU1KSHZYMWVhN1VEc0VxbHd3dHFFbWxwYWhrb25scTV1UnRJMGNMNmhzSUdUa1lDQmk4NlpaaEEzN2MxeVE5enJTd0dJaWNjbEJSMlRLYk1TaklrTDBXZjRsbkZvQ2NhQ0QtMUxEay1fTlJZeFZIdVdJTEpn?oc=5",
       "publisher": "nacion.com",
@@ -180,6 +170,16 @@
   ],
   "otherArticles": [
     {
+      "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPei00bGJxeW1jOFRQQTRZTmYxQzFBeXp5OXNPN2ZydzJINU1pRV9aOTdjWjZPdlBHTDQxZ3VmYkVMNFRrNnZLeE5oUElZQmtxLU5lQ2xGVGdIcjlwclNpamFWNWtoYVNYZHZwOXRzT2lmYkJTOUI1NlRKbU1vdjFldGpNOWRsSGRpYUF1VGhEdy1Rbm5rZWU2WHdjWUgxWmc2OGRQSG5PaEpITTZrRF9F?oc=5",
+      "publisher": "cr hoy",
+      "mediumKey": null,
+      "mediumName": null,
+      "isTop12": false,
+      "relevant": true,
+      "date": "2025-10-15T07:00:00.000Z"
+    },
+    {
       "title": "Dueños de Subway compraron reconocida cadena de comida rápida por mil millones de dólares",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbjdfVjB1S0pDRGV1a3VpdXpiSzlkdkUxeVNWekp1bnRqaUFpaTdLc0lKOXh3ek9IUU96UDdOQm9UMmM4M3diZWpzbERxdDItb08zNDJlSDdxaGZrV3g2c1NRYjBlV0pBX1J0S04xYTR0Zlg1Y1BDRTZpaDRNZm1nUDR1bjlKQ0NMOG1XWkItMHRzRl84V2lzMEh1ay1PN3JSbFVhck9EU3diUnZfUXZOS3hfVHBGZjlYN0I2TngyclVLdw?oc=5",
       "publisher": "la teja",
@@ -197,7 +197,7 @@
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con el 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗰𝗼𝗺𝗶𝗱𝗮𝘀 𝗿á𝗽𝗶𝗱𝗮𝘀 𝗼𝗽𝗲𝗿𝗮𝗱𝗮𝘀 𝗯𝗮𝗷𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗳𝗿𝗮𝗻𝗾𝘂𝗶𝗰𝗶𝗮.",
         "date": "2026-07-03T18:00:26.000Z",
         "url": "https://www.facebook.com/Coprocom/posts/pfbid029DQRoygz9nJ2QaPqQU4vtKhGPnvS3N7GqUDTHtYVAdoaaLgxoCDujixs8SScti99l",
-        "reactions": 0,
+        "reactions": 1,
         "shares": 0,
         "relevant": true
       },
@@ -317,7 +317,7 @@
     "relevantCount": 1
   },
   "meta": {
-    "lastRunAt": "2026-07-03T18:46:09.859Z",
+    "lastRunAt": "2026-07-03T20:09:35.585Z",
     "rawCount": 30,
     "fbCount": 15,
     "source": "actor:andok~google-news-scraper"
