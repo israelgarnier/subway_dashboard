@@ -316,10 +316,86 @@
     ],
     "relevantCount": 1
   },
+  "meltwater": {
+    "total": 33,
+    "relevantCount": 7,
+    "totalReach": 5771171,
+    "mentions": [
+      {
+        "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial",
+        "publisher": "El Financiero",
+        "domain": "elfinancierocr.com",
+        "url": "https://www.elfinancierocr.com/negocios/la-franquicia-de-subway-en-costa-rica-esta-en/U5XYPEAG3FDVJMZWFNXXJANUKE/story/",
+        "date": "2026-07-03T08:53:00.000Z",
+        "reach": 233284,
+        "type": "news article",
+        "relevant": true
+      },
+      {
+        "title": "¿Cambio de dueño? La venta de la franquicia Subway en Costa Rica ya está bajo la lupa de Coprocom",
+        "publisher": "El Financiero",
+        "domain": "elfinancierocr.com",
+        "url": "https://www.elfinancierocr.com/negocios/cambio-de-dueno-la-venta-de-la-franquicia-subway/VWNFBVHV3JB2VATQGY7QXWIIPY/story/",
+        "date": "2025-10-17T18:50:00.000Z",
+        "reach": 233284,
+        "type": "news article",
+        "relevant": true
+      },
+      {
+        "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway 👇",
+        "publisher": "Facebook",
+        "domain": "facebook.com",
+        "url": "http://www.facebook.com/1220459873438983",
+        "date": "2025-10-15T22:24:27.000Z",
+        "reach": 0,
+        "type": "comment",
+        "relevant": true
+      },
+      {
+        "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway 👇",
+        "publisher": "Facebook",
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/265769886798719_1220459873438983",
+        "date": "2025-10-15T22:24:17.000Z",
+        "reach": 1431564,
+        "type": "social post",
+        "relevant": true
+      },
+      {
+        "title": "Coprocom recibe notificación sobre venta de la franquicia de Subway en Costa Rica👇",
+        "publisher": "Facebook",
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/115872105050_1126570966259615",
+        "date": "2025-10-15T21:23:00.000Z",
+        "reach": 1142873,
+        "type": "social post",
+        "relevant": true
+      },
+      {
+        "title": "Coprocom recibe notificación sobre venta de la franquicia de Subway en Costa Rica",
+        "publisher": "La Nación",
+        "domain": "nacion.com",
+        "url": "https://www.nacion.com/economia/coprocom-recibe-notificacion-sobre-venta-de-la/DKVOW2TI2RBUXI5NHJEQGRPGMY/story/",
+        "date": "2025-10-15T20:51:40.000Z",
+        "reach": 1727845,
+        "type": "news article",
+        "relevant": true
+      },
+      {
+        "title": "Coprocom informó que compañías iniciaron proceso para comprar franquicia de Subway",
+        "publisher": "Crhoy.com",
+        "domain": "crhoy.com",
+        "url": "https://www.crhoy.com/coprocom-informo-que-companias-iniciaron-proceso-para-comprar-franquicia-de-subway/",
+        "date": "2025-10-15T16:15:48.000Z",
+        "reach": 1002321,
+        "type": "news article",
+        "relevant": true
+      }
+    ]
+  },
   "meta": {
-    "lastRunAt": "2026-07-03T21:07:06.488Z",
-    "rawCount": 31,
-    "fbCount": 15,
-    "source": "actor:andok~google-news-scraper"
+    "lastRunAt": "2026-07-03T21:28:00.740Z",
+    "apifyRefreshed": true,
+    "source": "meltwater+apify"
   }
 }

@@ -2,9 +2,10 @@ name: Actualizar datos Subway
 
 on:
   schedule:
-    # Costa Rica = UTC-6. 3 veces al día: 7am, 1pm y 7pm CR -> 13:00, 19:00 y 01:00 UTC.
-    - cron: "0 1,13,19 * * *"
-  workflow_dispatch: {} # botón "Run workflow" para correr manualmente
+    # Cada hora: Meltwater se refresca siempre; Apify (Google News + Facebook)
+    # solo en las horas 01, 13 y 19 UTC (7pm, 7am, 1pm CR) para controlar costo.
+    - cron: "0 * * * *"
+  workflow_dispatch: {} # "Run workflow" = refresco COMPLETO (incluye Apify)
 
 permissions:
   contents: write
@@ -19,10 +20,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Obtener noticias de Apify y generar data.json
+      - name: Obtener datos (Meltwater + Apify) y generar data.json
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_ACTOR: andok~google-news-scraper
+          MELTWATER_TOKEN: ${{ secrets.MELTWATER_TOKEN }}
+          MELTWATER_SEARCH_ID: "28806749"
+          FULL: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: node scripts/fetch.mjs
 
       - name: Commit y push de data.json

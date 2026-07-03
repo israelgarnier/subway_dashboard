@@ -39,6 +39,8 @@
 
   .section { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-bottom:20px; box-shadow:0 1px 2px rgba(14,124,90,.04); }
   .section h2 { font-size:16px; margin:0 0 14px; font-weight:700; color:var(--brand-dark); display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .section.mw { border:2px solid var(--brand); box-shadow:0 3px 12px rgba(14,124,90,.10); }
+  .section.mw h2 { font-size:17px; }
 
   .media-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
   .media { display:flex; align-items:center; justify-content:space-between; gap:8px;
@@ -105,18 +107,38 @@
 function fmtDate(iso){ if(!iso) return "—"; try { return new Date(iso).toLocaleDateString("es-CR",{day:"2-digit",month:"short",year:"numeric"}); } catch { return String(iso).slice(0,10); } }
 function fmtDateTime(iso){ if(!iso) return "—"; try { return new Date(iso).toLocaleString("es-CR",{day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit"}); } catch { return iso; } }
 function esc(s){ return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function fmtReach(n){ n=Number(n)||0; if(n>=1e6) return (n/1e6).toFixed(1).replace(/\.0$/,"")+"M"; if(n>=1e3) return Math.round(n/1e3)+"K"; return String(n); }
 
 function render(d){
   document.getElementById("updated").textContent = fmtDate(d.meta && d.meta.lastRunAt);
   const maxBar = d.timeline.length ? Math.max(...d.timeline.map(t=>t.count)) : 0;
   let html = "";
 
+  const mw = d.meltwater || {relevantCount:0,totalReach:0,mentions:[]};
+  const k = d.kpis || {};
+  const latestDate = (mw.mentions[0] && mw.mentions[0].date) || k.latestDate;
   html += '<div class="kpis">' +
-    kpi(d.kpis.totalRelevant, "Notas sobre la compra") +
-    kpi(d.kpis.mediaCovered + ' <span style="font-size:16px;color:var(--muted)">/ '+d.kpis.mediaTotal+'</span>', "Medios (de 12) que cubrieron") +
-    kpi(d.kpis.top12Count, "Notas en los 12 principales") +
-    kpi((d.facebook && d.facebook.posts && d.facebook.posts.length) || 0, "Posts recientes de Coprocom") +
+    kpi(mw.relevantCount, "Menciones del caso (Meltwater)") +
+    kpi(fmtReach(mw.totalReach), "Alcance potencial") +
+    kpi((k.mediaCovered||0) + ' <span style="font-size:16px;color:var(--muted)">/ '+(k.mediaTotal||12)+'</span>', "Medios (de 12) que cubrieron") +
+    kpi('<span style="font-size:20px">'+fmtDate(latestDate)+'</span>', "Último artículo") +
   '</div>';
+
+  // Meltwater — fuente principal, resaltada
+  html += '<div class="section mw"><h2>📊 Meltwater · Compra subway <span class="pill">se actualiza cada hora</span></h2>';
+  if(mw.mentions.length){
+    html += '<table><thead><tr><th>Medio</th><th>Titular</th><th>Alcance</th><th>Fecha</th></tr></thead><tbody>';
+    mw.mentions.forEach(m=>{
+      html += '<tr><td class="medium">'+esc(m.publisher)+'</td>'+
+        '<td><a href="'+esc(m.url)+'" target="_blank" rel="noreferrer">'+esc(m.title)+' ↗</a></td>'+
+        '<td class="date" title="Alcance potencial">'+(m.reach?('👁 '+fmtReach(m.reach)):'—')+'</td>'+
+        '<td class="date">'+fmtDate(m.date)+'</td></tr>';
+    });
+    html += '</tbody></table>';
+  } else {
+    html += '<div class="empty">Sin menciones del caso Subway en la búsqueda de Meltwater por ahora.</div>';
+  }
+  html += '</div>';
 
   // Cobertura 12 medios
   html += '<div class="section"><h2>Cobertura en los 12 medios principales</h2><div class="media-grid">';
