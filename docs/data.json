@@ -327,7 +327,7 @@
     "relevantCount": 1
   },
   "meltwater": {
-    "total": 35,
+    "total": 36,
     "relevantCount": 9,
     "totalReach": 6891856,
     "mentions": [
@@ -424,7 +424,7 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-04T16:51:59.695Z",
+    "lastRunAt": "2026-07-04T17:55:45.960Z",
     "apifyRefreshed": false,
     "source": "meltwater+apify"
   }
