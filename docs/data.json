@@ -329,7 +329,7 @@
   "meltwater": {
     "total": 35,
     "relevantCount": 9,
-    "totalReach": 6891840,
+    "totalReach": 6891856,
     "mentions": [
       {
         "title": "Coprocom analiza compra de Subway en Costa Rica por parte de AR Holdings",
@@ -347,7 +347,7 @@
         "domain": "facebook.com",
         "url": "https://www.facebook.com/47921680333_1453724073449777",
         "date": "2026-07-03T21:00:06.000Z",
-        "reach": 659471,
+        "reach": 659487,
         "type": "social post",
         "relevant": true
       },
@@ -424,7 +424,7 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-04T08:22:28.765Z",
+    "lastRunAt": "2026-07-04T10:48:37.943Z",
     "apifyRefreshed": false,
     "source": "meltwater+apify"
   }
