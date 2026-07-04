@@ -1,10 +1,10 @@
 {
   "kpis": {
-    "totalRelevant": 6,
-    "top12Count": 5,
-    "mediaCovered": 2,
+    "totalRelevant": 7,
+    "top12Count": 6,
+    "mediaCovered": 3,
     "mediaTotal": 12,
-    "latestDate": "2026-07-03T20:53:00.000Z"
+    "latestDate": "2026-07-03T22:13:17.000Z"
   },
   "coverage": [
     {
@@ -83,9 +83,9 @@
       "key": "elobservador.cr",
       "name": "El Observador",
       "domain": "elobservador.cr",
-      "count": 0,
-      "covered": false,
-      "latest": null
+      "count": 1,
+      "covered": true,
+      "latest": "2026-07-03T22:13:17.000Z"
     },
     {
       "key": "semanariouniversidad.com",
@@ -123,10 +123,20 @@
     },
     {
       "day": "2026-07-03",
-      "count": 1
+      "count": 2
     }
   ],
   "top12Articles": [
+    {
+      "title": "Coprocom analiza compra de Subway en Costa Rica por parte de AR Holdings",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSUdia2FpeHNmdlFyNzRFeDNzb1M0UmlHQkM2ZkRqZ0p6cVpFNTRtQ183WGduUzJkT2Ryb3VTdFJyM3JmQzc1MDNGZnFCV3N6c3hIVGN1QlB3aGpmSHY3WE53WkJVN1JJV21NZ0lBOVRkRzRYeXNrdm5rdFgwYk01N1prcDhOdFZqUG10LW5uWnlhaE5kZzFwTTQyVQ?oc=5",
+      "publisher": "el observador cr",
+      "mediumKey": "elobservador.cr",
+      "mediumName": "El Observador",
+      "isTop12": true,
+      "relevant": true,
+      "date": "2026-07-03T22:13:17.000Z"
+    },
     {
       "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcHhETDdERDZtb1dQZm5Yb2htUDZJaURab1ZmY29udlc3VlBabG5KS0YwSWQ3THNYWThfR3Zmcm5xWDV2NzBESkUzR00wTk40cGxLbmZ6X2JYQ3hiUjZWSE8xZldkcUJxZlotd1d1amx4QnRQbDRqVkFzS00wenFXaFRvTXFjR01WNWtiS1dZTU1TcjFpcUxIOGNHRVhUR205am9TSEtPM2RtVDlyYy0xZ213eGE3VDZ2N0tv?oc=5",
@@ -197,7 +207,7 @@
         "text": "📢 𝗔𝗧𝗘𝗡𝗖𝗜Ó𝗡\nSe informa sobre la notificación de concentración económica relacionada con el 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗰𝗼𝗺𝗶𝗱𝗮𝘀 𝗿á𝗽𝗶𝗱𝗮𝘀 𝗼𝗽𝗲𝗿𝗮𝗱𝗮𝘀 𝗯𝗮𝗷𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗳𝗿𝗮𝗻𝗾𝘂𝗶𝗰𝗶𝗮.",
         "date": "2026-07-03T18:00:26.000Z",
         "url": "https://www.facebook.com/Coprocom/posts/pfbid029DQRoygz9nJ2QaPqQU4vtKhGPnvS3N7GqUDTHtYVAdoaaLgxoCDujixs8SScti99l",
-        "reactions": 1,
+        "reactions": 3,
         "shares": 0,
         "relevant": true
       },
@@ -414,8 +424,8 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-03T23:56:12.090Z",
-    "apifyRefreshed": false,
+    "lastRunAt": "2026-07-04T01:56:47.767Z",
+    "apifyRefreshed": true,
     "source": "meltwater+apify"
   }
 }
