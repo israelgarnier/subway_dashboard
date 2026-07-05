@@ -162,10 +162,20 @@
     "relevantCount": 1
   },
   "meltwater": {
-    "total": 36,
-    "relevantCount": 9,
-    "totalReach": 6891856,
+    "total": 37,
+    "relevantCount": 10,
+    "totalReach": 7551368,
     "mentions": [
+      {
+        "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial 👇",
+        "publisher": "Facebook",
+        "domain": "facebook.com",
+        "url": "https://www.facebook.com/47921680333_1454992166656301",
+        "date": "2026-07-05T07:02:17.000Z",
+        "reach": 659512,
+        "type": "social post",
+        "relevant": true
+      },
       {
         "title": "Coprocom analiza compra de Subway en Costa Rica por parte de AR Holdings",
         "publisher": "El Observador CR",
@@ -259,7 +269,7 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-05T05:55:42.069Z",
+    "lastRunAt": "2026-07-05T08:39:46.055Z",
     "apifyRefreshed": false,
     "source": "meltwater+apify"
   }
