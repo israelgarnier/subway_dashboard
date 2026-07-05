@@ -164,7 +164,7 @@
   "meltwater": {
     "total": 37,
     "relevantCount": 10,
-    "totalReach": 7551368,
+    "totalReach": 7551367,
     "mentions": [
       {
         "title": "La franquicia de Subway en Costa Rica está en venta: la Coprocom tramita adquisición por parte de importante grupo empresarial 👇",
@@ -172,7 +172,7 @@
         "domain": "facebook.com",
         "url": "https://www.facebook.com/47921680333_1454992166656301",
         "date": "2026-07-05T07:02:17.000Z",
-        "reach": 659512,
+        "reach": 659511,
         "type": "social post",
         "relevant": true
       },
@@ -269,7 +269,7 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-05T11:00:21.770Z",
+    "lastRunAt": "2026-07-05T12:14:48.741Z",
     "apifyRefreshed": false,
     "source": "meltwater+apify"
   }
