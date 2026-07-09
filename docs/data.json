@@ -220,8 +220,8 @@
     ]
   },
   "meta": {
-    "lastRunAt": "2026-07-09T17:46:00.594Z",
-    "apifyRefreshed": false,
+    "lastRunAt": "2026-07-09T19:19:55.990Z",
+    "apifyRefreshed": true,
     "source": "meltwater+apify"
   }
 }
